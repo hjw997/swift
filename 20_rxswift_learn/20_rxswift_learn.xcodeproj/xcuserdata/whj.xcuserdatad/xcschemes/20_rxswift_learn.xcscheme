@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D20D4BD82AAD358E0016A396"
+               BuildableName = "20_rxswift_learn.app"
+               BlueprintName = "20_rxswift_learn"
+               ReferencedContainer = "container:20_rxswift_learn.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D20D4BD82AAD358E0016A396"
+            BuildableName = "20_rxswift_learn.app"
+            BlueprintName = "20_rxswift_learn"
+            ReferencedContainer = "container:20_rxswift_learn.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

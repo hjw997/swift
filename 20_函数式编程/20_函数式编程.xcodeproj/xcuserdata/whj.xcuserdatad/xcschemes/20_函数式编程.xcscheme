@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D20D4BC52AA7FBC30016A396"
+               BuildableName = "20_&#x51fd;&#x6570;&#x5f0f;&#x7f16;&#x7a0b;"
+               BlueprintName = "20_&#x51fd;&#x6570;&#x5f0f;&#x7f16;&#x7a0b;"
+               ReferencedContainer = "container:20_&#x51fd;&#x6570;&#x5f0f;&#x7f16;&#x7a0b;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D20D4BC52AA7FBC30016A396"
+            BuildableName = "20_&#x51fd;&#x6570;&#x5f0f;&#x7f16;&#x7a0b;"
+            BlueprintName = "20_&#x51fd;&#x6570;&#x5f0f;&#x7f16;&#x7a0b;"
+            ReferencedContainer = "container:20_&#x51fd;&#x6570;&#x5f0f;&#x7f16;&#x7a0b;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
