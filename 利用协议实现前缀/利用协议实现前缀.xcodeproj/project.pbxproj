@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D2AA995F2B82628F00F5885B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA995E2B82628F00F5885B /* main.swift */; };
+		D2AA996C2B827F3100F5885B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AA996B2B827F3100F5885B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D2AA99592B82628F00F5885B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D2AA99672B827F3100F5885B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		D2AA995B2B82628F00F5885B /* 利用协议实现前缀 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利用协议实现前缀"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AA995E2B82628F00F5885B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2AA99692B827F3100F5885B /* 利用协议实现前缀_02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利用协议实现前缀_02"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AA996B2B827F3100F5885B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D2AA99582B82628F00F5885B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA99662B827F3100F5885B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +60,8 @@
 		D2AA99522B82628F00F5885B = {
 			isa = PBXGroup;
 			children = (
-				D2AA995D2B82628F00F5885B /* 利用协议实现前缀 */,
+				D2AA995D2B82628F00F5885B /* 利用协议实现前缀_01 */,
+				D2AA996A2B827F3100F5885B /* 利用协议实现前缀_02 */,
 				D2AA995C2B82628F00F5885B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,16 +70,25 @@
 			isa = PBXGroup;
 			children = (
 				D2AA995B2B82628F00F5885B /* 利用协议实现前缀 */,
+				D2AA99692B827F3100F5885B /* 利用协议实现前缀_02 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2AA995D2B82628F00F5885B /* 利用协议实现前缀 */ = {
+		D2AA995D2B82628F00F5885B /* 利用协议实现前缀_01 */ = {
 			isa = PBXGroup;
 			children = (
 				D2AA995E2B82628F00F5885B /* main.swift */,
 			);
-			path = "利用协议实现前缀";
+			path = "利用协议实现前缀_01";
+			sourceTree = "<group>";
+		};
+		D2AA996A2B827F3100F5885B /* 利用协议实现前缀_02 */ = {
+			isa = PBXGroup;
+			children = (
+				D2AA996B2B827F3100F5885B /* main.swift */,
+			);
+			path = "利用协议实现前缀_02";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = D2AA995B2B82628F00F5885B /* 利用协议实现前缀 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2AA99682B827F3100F5885B /* 利用协议实现前缀_02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AA996F2B827F3100F5885B /* Build configuration list for PBXNativeTarget "利用协议实现前缀_02" */;
+			buildPhases = (
+				D2AA99652B827F3100F5885B /* Sources */,
+				D2AA99662B827F3100F5885B /* Frameworks */,
+				D2AA99672B827F3100F5885B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "利用协议实现前缀_02";
+			productName = "利用协议实现前缀_02";
+			productReference = D2AA99692B827F3100F5885B /* 利用协议实现前缀_02 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +139,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					D2AA995A2B82628F00F5885B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2AA99682B827F3100F5885B = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -111,6 +160,7 @@
 			projectRoot = "";
 			targets = (
 				D2AA995A2B82628F00F5885B /* 利用协议实现前缀 */,
+				D2AA99682B827F3100F5885B /* 利用协议实现前缀_02 */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +171,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AA995F2B82628F00F5885B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA99652B827F3100F5885B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AA996C2B827F3100F5885B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +316,24 @@
 			};
 			name = Release;
 		};
+		D2AA996D2B827F3100F5885B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2AA996E2B827F3100F5885B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -275,6 +351,15 @@
 			buildConfigurations = (
 				D2AA99632B82628F00F5885B /* Debug */,
 				D2AA99642B82628F00F5885B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AA996F2B827F3100F5885B /* Build configuration list for PBXNativeTarget "利用协议实现前缀_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AA996D2B827F3100F5885B /* Debug */,
+				D2AA996E2B827F3100F5885B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
