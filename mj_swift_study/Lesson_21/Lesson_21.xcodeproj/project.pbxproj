@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D2A39F802B83B95F006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A39F7F2B83B95F006B416C /* main.swift */; };
 		D2A39F8B2B83B98A006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A39F8A2B83B98A006B416C /* main.swift */; };
+		D2A39F962B83BFDC006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A39F952B83BFDC006B416C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D2A39F912B83BFDC006B416C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		D2A39F7F2B83B95F006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2A39F882B83B98A006B416C /* 利用协议实现前缀功能_02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利用协议实现前缀功能_02"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A39F8A2B83B98A006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2A39F932B83BFDC006B416C /* 利用协议实现前缀功能_03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "利用协议实现前缀功能_03"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A39F952B83BFDC006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2A39F902B83BFDC006B416C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				D2A39F7E2B83B95F006B416C /* 利用协议实现前缀功能_01 */,
 				D2A39F892B83B98A006B416C /* 利用协议实现前缀功能_02 */,
+				D2A39F942B83BFDC006B416C /* 利用协议实现前缀功能_03 */,
 				D2A39F632B83B91D006B416C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				D2A39F7D2B83B95F006B416C /* 利用协议实现前缀功能_01 */,
 				D2A39F882B83B98A006B416C /* 利用协议实现前缀功能_02 */,
+				D2A39F932B83BFDC006B416C /* 利用协议实现前缀功能_03 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				D2A39F8A2B83B98A006B416C /* main.swift */,
 			);
 			path = "利用协议实现前缀功能_02";
+			sourceTree = "<group>";
+		};
+		D2A39F942B83BFDC006B416C /* 利用协议实现前缀功能_03 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A39F952B83BFDC006B416C /* main.swift */,
+			);
+			path = "利用协议实现前缀功能_03";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = D2A39F882B83B98A006B416C /* 利用协议实现前缀功能_02 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2A39F922B83BFDC006B416C /* 利用协议实现前缀功能_03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A39F992B83BFDC006B416C /* Build configuration list for PBXNativeTarget "利用协议实现前缀功能_03" */;
+			buildPhases = (
+				D2A39F8F2B83BFDC006B416C /* Sources */,
+				D2A39F902B83BFDC006B416C /* Frameworks */,
+				D2A39F912B83BFDC006B416C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "利用协议实现前缀功能_03";
+			productName = "利用协议实现前缀功能_03";
+			productReference = D2A39F932B83BFDC006B416C /* 利用协议实现前缀功能_03 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -142,6 +188,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					D2A39F872B83B98A006B416C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2A39F922B83BFDC006B416C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -161,6 +210,7 @@
 			targets = (
 				D2A39F7C2B83B95F006B416C /* 利用协议实现前缀功能_01 */,
 				D2A39F872B83B98A006B416C /* 利用协议实现前缀功能_02 */,
+				D2A39F922B83BFDC006B416C /* 利用协议实现前缀功能_03 */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A39F8B2B83B98A006B416C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A39F8F2B83BFDC006B416C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A39F962B83BFDC006B416C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +401,28 @@
 			};
 			name = Release;
 		};
+		D2A39F972B83BFDC006B416C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2A39F982B83BFDC006B416C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -369,6 +449,15 @@
 			buildConfigurations = (
 				D2A39F8D2B83B98A006B416C /* Debug */,
 				D2A39F8E2B83B98A006B416C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A39F992B83BFDC006B416C /* Build configuration list for PBXNativeTarget "利用协议实现前缀功能_03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A39F972B83BFDC006B416C /* Debug */,
+				D2A39F982B83BFDC006B416C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
