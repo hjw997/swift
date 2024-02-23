@@ -7,9 +7,9 @@
             buildForRunning = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2A39FA22B83C315006B416C"
-               BuildableName = "Lesson_11.app"
-               BlueprintName = "Lesson_11"
+               BlueprintIdentifier = "D2A39FD32B881479006B416C"
+               BuildableName = "&#x5143;&#x7c7b;&#x578b;"
+               BlueprintName = "&#x5143;&#x7c7b;&#x578b;"
                ReferencedContainer = "container:Lesson_11.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -22,9 +22,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2A39FA22B83C315006B416C"
-            BuildableName = "Lesson_11.app"
-            BlueprintName = "Lesson_11"
+            BlueprintIdentifier = "D2A39FD32B881479006B416C"
+            BuildableName = "&#x5143;&#x7c7b;&#x578b;"
+            BlueprintName = "&#x5143;&#x7c7b;&#x578b;"
             ReferencedContainer = "container:Lesson_11.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
