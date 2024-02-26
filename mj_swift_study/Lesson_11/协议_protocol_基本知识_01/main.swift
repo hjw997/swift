@@ -26,5 +26,10 @@ protocol Drawable {
     var y:Int { get }
     
     subscript(index:Int) -> Int { get set}
+
+    ///- Todo: 初始化器 也 学完学透.
+
+    ///- Todo:  协议 学透 , 各种语法, 还有 对协议的扩展相关的 点 一次学完
+
 }
 
