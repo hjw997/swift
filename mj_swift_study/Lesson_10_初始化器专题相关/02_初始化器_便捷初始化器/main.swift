@@ -38,3 +38,7 @@ var s2 = Size(width: 0)
 var s3 = Size(height: 10)
 var s4 = Size()
 
+/***
+ 便捷初始化器 只能 横向 调用 (被自己类中的其他便捷初始化器调用)
+
+ */

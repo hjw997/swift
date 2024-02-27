@@ -16,6 +16,7 @@
 		D2A3A00D2B8C1BA7006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A00C2B8C1BA7006B416C /* main.swift */; };
 		D2A3A0182B8C28A6006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0172B8C28A6006B416C /* main.swift */; };
 		D2A3A0232B8C2B4B006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0222B8C2B4B006B416C /* main.swift */; };
+		D2A3A02E2B8D806B006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A02D2B8D806B006B416C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D2A3A0292B8D806B006B416C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +73,8 @@
 		D2A3A0172B8C28A6006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2A3A0202B8C2B4B006B416C /* 03_初始化器_有继承关系 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03_初始化器_有继承关系"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3A0222B8C2B4B006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2A3A02B2B8D806B006B416C /* 04_初始化器_重写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04_初始化器_重写"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A3A02D2B8D806B006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2A3A0282B8D806B006B416C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +123,7 @@
 				D2A3A00B2B8C1BA7006B416C /* 01_初始化器_init */,
 				D2A3A0162B8C28A6006B416C /* 02_初始化器_便捷初始化器 */,
 				D2A3A0212B8C2B4B006B416C /* 03_初始化器_有继承关系 */,
+				D2A3A02C2B8D806B006B416C /* 04_初始化器_重写 */,
 				D2A39FF02B8C1B69006B416C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +135,7 @@
 				D2A3A00A2B8C1BA7006B416C /* 01_初始化器_init */,
 				D2A3A0152B8C28A6006B416C /* 02_初始化器_便捷初始化器 */,
 				D2A3A0202B8C2B4B006B416C /* 03_初始化器_有继承关系 */,
+				D2A3A02B2B8D806B006B416C /* 04_初始化器_重写 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +176,14 @@
 				D2A3A0222B8C2B4B006B416C /* main.swift */,
 			);
 			path = "03_初始化器_有继承关系";
+			sourceTree = "<group>";
+		};
+		D2A3A02C2B8D806B006B416C /* 04_初始化器_重写 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3A02D2B8D806B006B416C /* main.swift */,
+			);
+			path = "04_初始化器_重写";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +257,23 @@
 			productReference = D2A3A0202B8C2B4B006B416C /* 03_初始化器_有继承关系 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2A3A02A2B8D806B006B416C /* 04_初始化器_重写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A3A02F2B8D806B006B416C /* Build configuration list for PBXNativeTarget "04_初始化器_重写" */;
+			buildPhases = (
+				D2A3A0272B8D806B006B416C /* Sources */,
+				D2A3A0282B8D806B006B416C /* Frameworks */,
+				D2A3A0292B8D806B006B416C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04_初始化器_重写";
+			productName = "04_初始化器_重写";
+			productReference = D2A3A02B2B8D806B006B416C /* 04_初始化器_重写 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,6 +296,9 @@
 					D2A3A01F2B8C2B4B006B416C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					D2A3A02A2B8D806B006B416C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D2A39FEA2B8C1B69006B416C /* Build configuration list for PBXProject "Lesson_10_初始化器专题相关" */;
@@ -269,6 +318,7 @@
 				D2A3A0092B8C1BA7006B416C /* 01_初始化器_init */,
 				D2A3A0142B8C28A6006B416C /* 02_初始化器_便捷初始化器 */,
 				D2A3A01F2B8C2B4B006B416C /* 03_初始化器_有继承关系 */,
+				D2A3A02A2B8D806B006B416C /* 04_初始化器_重写 */,
 			);
 		};
 /* End PBXProject section */
@@ -318,6 +368,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A3A0232B8C2B4B006B416C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A3A0272B8D806B006B416C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A3A02E2B8D806B006B416C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +635,28 @@
 			};
 			name = Release;
 		};
+		D2A3A0302B8D806B006B416C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2A3A0312B8D806B006B416C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -621,6 +701,15 @@
 			buildConfigurations = (
 				D2A3A0252B8C2B4B006B416C /* Debug */,
 				D2A3A0262B8C2B4B006B416C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A3A02F2B8D806B006B416C /* Build configuration list for PBXNativeTarget "04_初始化器_重写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A3A0302B8D806B006B416C /* Debug */,
+				D2A3A0312B8D806B006B416C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
