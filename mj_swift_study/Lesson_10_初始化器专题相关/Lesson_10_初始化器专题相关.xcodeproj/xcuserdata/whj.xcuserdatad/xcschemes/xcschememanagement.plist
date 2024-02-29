@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>06_初始化器_required.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Lesson_10_初始化器专题相关.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
