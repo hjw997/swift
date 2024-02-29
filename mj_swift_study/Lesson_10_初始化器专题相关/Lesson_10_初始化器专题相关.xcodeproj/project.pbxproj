@@ -19,6 +19,7 @@
 		D2A3A02E2B8D806B006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A02D2B8D806B006B416C /* main.swift */; };
 		D2A3A0392B8D8852006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0382B8D8852006B416C /* main.swift */; };
 		D2A3A0442B8F1B00006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0432B8F1B00006B416C /* main.swift */; };
+		D2A3A04F2B9145A6006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A04E2B9145A6006B416C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D2A3A04A2B9145A6006B416C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +109,8 @@
 		D2A3A0382B8D8852006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2A3A0412B8F1B00006B416C /* 06_初始化器_required */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06_初始化器_required"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3A0432B8F1B00006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2A3A04C2B9145A6006B416C /* 07_初始化器_属性观察器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07_初始化器_属性观察器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A3A04E2B9145A6006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +163,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2A3A0492B9145A6006B416C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -164,6 +183,7 @@
 				D2A3A02C2B8D806B006B416C /* 04_初始化器_重写 */,
 				D2A3A0372B8D8852006B416C /* 05_初始化器_自动继承 */,
 				D2A3A0422B8F1B00006B416C /* 06_初始化器_required */,
+				D2A3A04D2B9145A6006B416C /* 07_初始化器_属性观察器 */,
 				D2A39FF02B8C1B69006B416C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,6 +198,7 @@
 				D2A3A02B2B8D806B006B416C /* 04_初始化器_重写 */,
 				D2A3A0362B8D8852006B416C /* 05_初始化器_自动继承 */,
 				D2A3A0412B8F1B00006B416C /* 06_初始化器_required */,
+				D2A3A04C2B9145A6006B416C /* 07_初始化器_属性观察器 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,6 +263,14 @@
 				D2A3A0432B8F1B00006B416C /* main.swift */,
 			);
 			path = "06_初始化器_required";
+			sourceTree = "<group>";
+		};
+		D2A3A04D2B9145A6006B416C /* 07_初始化器_属性观察器 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3A04E2B9145A6006B416C /* main.swift */,
+			);
+			path = "07_初始化器_属性观察器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,6 +395,23 @@
 			productReference = D2A3A0412B8F1B00006B416C /* 06_初始化器_required */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2A3A04B2B9145A6006B416C /* 07_初始化器_属性观察器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A3A0502B9145A6006B416C /* Build configuration list for PBXNativeTarget "07_初始化器_属性观察器" */;
+			buildPhases = (
+				D2A3A0482B9145A6006B416C /* Sources */,
+				D2A3A0492B9145A6006B416C /* Frameworks */,
+				D2A3A04A2B9145A6006B416C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07_初始化器_属性观察器";
+			productName = "07_初始化器_属性观察器";
+			productReference = D2A3A04C2B9145A6006B416C /* 07_初始化器_属性观察器 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -397,6 +443,9 @@
 					D2A3A0402B8F1B00006B416C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					D2A3A04B2B9145A6006B416C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D2A39FEA2B8C1B69006B416C /* Build configuration list for PBXProject "Lesson_10_初始化器专题相关" */;
@@ -419,6 +468,7 @@
 				D2A3A02A2B8D806B006B416C /* 04_初始化器_重写 */,
 				D2A3A0352B8D8852006B416C /* 05_初始化器_自动继承 */,
 				D2A3A0402B8F1B00006B416C /* 06_初始化器_required */,
+				D2A3A04B2B9145A6006B416C /* 07_初始化器_属性观察器 */,
 			);
 		};
 /* End PBXProject section */
@@ -492,6 +542,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A3A0442B8F1B00006B416C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A3A0482B9145A6006B416C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A3A04F2B9145A6006B416C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -817,6 +875,28 @@
 			};
 			name = Release;
 		};
+		D2A3A0512B9145A6006B416C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2A3A0522B9145A6006B416C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -888,6 +968,15 @@
 			buildConfigurations = (
 				D2A3A0462B8F1B00006B416C /* Debug */,
 				D2A3A0472B8F1B00006B416C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A3A0502B9145A6006B416C /* Build configuration list for PBXNativeTarget "07_初始化器_属性观察器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A3A0512B9145A6006B416C /* Debug */,
+				D2A3A0522B9145A6006B416C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

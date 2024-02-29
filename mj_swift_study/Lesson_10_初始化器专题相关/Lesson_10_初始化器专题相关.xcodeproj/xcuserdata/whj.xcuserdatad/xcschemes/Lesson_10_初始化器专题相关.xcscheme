@@ -48,6 +48,10 @@
             ReferencedContainer = "container:Lesson_10_&#x521d;&#x59cb;&#x5316;&#x5668;&#x4e13;&#x9898;&#x76f8;&#x5173;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
