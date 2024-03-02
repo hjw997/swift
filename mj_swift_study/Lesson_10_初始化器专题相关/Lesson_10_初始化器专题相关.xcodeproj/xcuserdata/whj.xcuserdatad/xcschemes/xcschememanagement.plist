@@ -39,10 +39,15 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>08_初始化器_可失败初始化器.xcscheme</key>
+		<key>08_初始化器_可失败初始化器.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+		<key>09_初始化器_反初始化器_deinit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>Lesson_10_初始化器专题相关.xcscheme</key>
 		<dict>
