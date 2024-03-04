@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>06_协议_协议中定义初始化器init.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Lesson_11_可选连_协议_元类型.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
