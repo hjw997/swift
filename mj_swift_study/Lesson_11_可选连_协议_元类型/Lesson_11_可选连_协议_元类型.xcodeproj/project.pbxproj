@@ -15,6 +15,7 @@
 		D2A3A0822B93E980006B416C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A3A0802B93E980006B416C /* LaunchScreen.storyboard */; };
 		D2A3A0902B93E9AA006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A08F2B93E9AA006B416C /* main.swift */; };
 		D2A3A09B2B953D3F006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A09A2B953D3F006B416C /* main.swift */; };
+		D2A3A0A62B95429E006B416C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0A52B95429E006B416C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		D2A3A0962B953D3F006B416C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D2A3A0A12B95429E006B416C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -51,6 +61,8 @@
 		D2A3A08F2B93E9AA006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2A3A0982B953D3F006B416C /* 02_协议_01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02_协议_01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3A09A2B953D3F006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2A3A0A32B95429E006B416C /* 03_协议_协议中的属性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03_协议_协议中的属性"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A3A0A52B95429E006B416C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2A3A0A02B95429E006B416C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +103,7 @@
 				D2A3A0742B93E980006B416C /* Lesson_11_可选连_协议_元类型 */,
 				D2A3A08E2B93E9AA006B416C /* 01_可选连相关知识点 */,
 				D2A3A0992B953D3F006B416C /* 02_协议_01 */,
+				D2A3A0A42B95429E006B416C /* 03_协议_协议中的属性 */,
 				D2A3A0732B93E980006B416C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +114,7 @@
 				D2A3A0722B93E980006B416C /* Lesson_11_可选连_协议_元类型.app */,
 				D2A3A08D2B93E9AA006B416C /* 01_可选连相关知识点 */,
 				D2A3A0982B953D3F006B416C /* 02_协议_01 */,
+				D2A3A0A32B95429E006B416C /* 03_协议_协议中的属性 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +147,14 @@
 				D2A3A09A2B953D3F006B416C /* main.swift */,
 			);
 			path = "02_协议_01";
+			sourceTree = "<group>";
+		};
+		D2A3A0A42B95429E006B416C /* 03_协议_协议中的属性 */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3A0A52B95429E006B416C /* main.swift */,
+			);
+			path = "03_协议_协议中的属性";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +211,23 @@
 			productReference = D2A3A0982B953D3F006B416C /* 02_协议_01 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2A3A0A22B95429E006B416C /* 03_协议_协议中的属性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A3A0A72B95429E006B416C /* Build configuration list for PBXNativeTarget "03_协议_协议中的属性" */;
+			buildPhases = (
+				D2A3A09F2B95429E006B416C /* Sources */,
+				D2A3A0A02B95429E006B416C /* Frameworks */,
+				D2A3A0A12B95429E006B416C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03_协议_协议中的属性";
+			productName = "03_协议_协议中的属性";
+			productReference = D2A3A0A32B95429E006B416C /* 03_协议_协议中的属性 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,6 +245,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					D2A3A0972B953D3F006B416C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2A3A0A22B95429E006B416C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -219,6 +268,7 @@
 				D2A3A0712B93E980006B416C /* Lesson_11_可选连_协议_元类型 */,
 				D2A3A08C2B93E9AA006B416C /* 01_可选连相关知识点 */,
 				D2A3A0972B953D3F006B416C /* 02_协议_01 */,
+				D2A3A0A22B95429E006B416C /* 03_协议_协议中的属性 */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +310,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A3A09B2B953D3F006B416C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A3A09F2B95429E006B416C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A3A0A62B95429E006B416C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +555,28 @@
 			};
 			name = Release;
 		};
+		D2A3A0A82B95429E006B416C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2A3A0A92B95429E006B416C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -532,6 +612,15 @@
 			buildConfigurations = (
 				D2A3A09D2B953D3F006B416C /* Debug */,
 				D2A3A09E2B953D3F006B416C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A3A0A72B95429E006B416C /* Build configuration list for PBXNativeTarget "03_协议_协议中的属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A3A0A82B95429E006B416C /* Debug */,
+				D2A3A0A92B95429E006B416C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
