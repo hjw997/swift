@@ -40,7 +40,7 @@ protocol Drawable {
 }
 class Person1 : Drawable {
 
-    /// 实现使用 class 表示允许子类重写
+    /// 实现使用 class 表示允许子类重写这个类型方法.
     class func draw() {
         print("Person1-draw")
     }
@@ -48,7 +48,7 @@ class Person1 : Drawable {
 
 class Person2 : Drawable {
 
-    /// 使用static 表示不允许子类重写.
+    /// 使用static 表示不允许子类重写类型方法
     static func draw() {
         print("Person1-draw")
     }
