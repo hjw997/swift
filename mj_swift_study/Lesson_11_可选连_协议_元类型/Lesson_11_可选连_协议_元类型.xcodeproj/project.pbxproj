@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D2138D132B987C570066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138D122B987C570066F311 /* main.swift */; };
 		D2138D1E2B994BEC0066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138D1D2B994BEC0066F311 /* main.swift */; };
+		D2138D292B994D020066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138D282B994D020066F311 /* main.swift */; };
 		D2A3A0762B93E980006B416C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0752B93E980006B416C /* AppDelegate.swift */; };
 		D2A3A0782B93E980006B416C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0772B93E980006B416C /* SceneDelegate.swift */; };
 		D2A3A07A2B93E980006B416C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0792B93E980006B416C /* ViewController.swift */; };
@@ -34,6 +35,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		D2138D192B994BEC0066F311 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D2138D242B994D020066F311 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -103,6 +113,8 @@
 		D2138D122B987C570066F311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2138D1B2B994BEC0066F311 /* 08_协议_协议可以继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08_协议_协议可以继承"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2138D1D2B994BEC0066F311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2138D262B994D020066F311 /* 09_协议_协议的组合 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09_协议_协议的组合"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2138D282B994D020066F311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2A3A0722B93E980006B416C /* Lesson_11_可选连_协议_元类型.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson_11_可选连_协议_元类型.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3A0752B93E980006B416C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2A3A0772B93E980006B416C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +146,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D2138D182B994BEC0066F311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2138D232B994D020066F311 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,6 +227,14 @@
 			path = "08_协议_协议可以继承";
 			sourceTree = "<group>";
 		};
+		D2138D272B994D020066F311 /* 09_协议_协议的组合 */ = {
+			isa = PBXGroup;
+			children = (
+				D2138D282B994D020066F311 /* main.swift */,
+			);
+			path = "09_协议_协议的组合";
+			sourceTree = "<group>";
+		};
 		D2A3A0692B93E980006B416C = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +247,7 @@
 				D2A3A0C52B95535B006B416C /* 06_协议_协议中定义初始化器init */,
 				D2138D112B987C570066F311 /* 07_协议_可失败初始化器 */,
 				D2138D1C2B994BEC0066F311 /* 08_协议_协议可以继承 */,
+				D2138D272B994D020066F311 /* 09_协议_协议的组合 */,
 				D2A3A0732B93E980006B416C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -236,6 +264,7 @@
 				D2A3A0C42B95535B006B416C /* 06_协议_协议中定义初始化器init */,
 				D2138D102B987C570066F311 /* 07_协议_可失败初始化器 */,
 				D2138D1B2B994BEC0066F311 /* 08_协议_协议可以继承 */,
+				D2138D262B994D020066F311 /* 09_协议_协议的组合 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,6 +366,23 @@
 			name = "08_协议_协议可以继承";
 			productName = "08_协议_协议可以继承";
 			productReference = D2138D1B2B994BEC0066F311 /* 08_协议_协议可以继承 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D2138D252B994D020066F311 /* 09_协议_协议的组合 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2138D2A2B994D020066F311 /* Build configuration list for PBXNativeTarget "09_协议_协议的组合" */;
+			buildPhases = (
+				D2138D222B994D020066F311 /* Sources */,
+				D2138D232B994D020066F311 /* Frameworks */,
+				D2138D242B994D020066F311 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09_协议_协议的组合";
+			productName = "09_协议_协议的组合";
+			productReference = D2138D262B994D020066F311 /* 09_协议_协议的组合 */;
 			productType = "com.apple.product-type.tool";
 		};
 		D2A3A0712B93E980006B416C /* Lesson_11_可选连_协议_元类型 */ = {
@@ -474,6 +520,9 @@
 					D2138D1A2B994BEC0066F311 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					D2138D252B994D020066F311 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					D2A3A0712B93E980006B416C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -519,6 +568,7 @@
 				D2A3A0C32B95535B006B416C /* 06_协议_协议中定义初始化器init */,
 				D2138D0F2B987C570066F311 /* 07_协议_可失败初始化器 */,
 				D2138D1A2B994BEC0066F311 /* 08_协议_协议可以继承 */,
+				D2138D252B994D020066F311 /* 09_协议_协议的组合 */,
 			);
 		};
 /* End PBXProject section */
@@ -550,6 +600,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2138D1E2B994BEC0066F311 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2138D222B994D020066F311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2138D292B994D020066F311 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +725,28 @@
 			name = Debug;
 		};
 		D2138D212B994BEC0066F311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2138D2B2B994D020066F311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2138D2C2B994D020066F311 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -994,6 +1074,15 @@
 			buildConfigurations = (
 				D2138D202B994BEC0066F311 /* Debug */,
 				D2138D212B994BEC0066F311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2138D2A2B994D020066F311 /* Build configuration list for PBXNativeTarget "09_协议_协议的组合" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2138D2B2B994D020066F311 /* Debug */,
+				D2138D2C2B994D020066F311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
