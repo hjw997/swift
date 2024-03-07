@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>08_协议_协议可以继承.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>Lesson_11_可选连_协议_元类型.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
