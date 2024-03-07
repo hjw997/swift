@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2138D132B987C570066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138D122B987C570066F311 /* main.swift */; };
 		D2A3A0762B93E980006B416C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0752B93E980006B416C /* AppDelegate.swift */; };
 		D2A3A0782B93E980006B416C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0772B93E980006B416C /* SceneDelegate.swift */; };
 		D2A3A07A2B93E980006B416C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3A0792B93E980006B416C /* ViewController.swift */; };
@@ -22,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D2138D0E2B987C570066F311 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D2A3A08B2B93E9AA006B416C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,6 +89,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D2138D102B987C570066F311 /* 07_协议_可失败初始化器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07_协议_可失败初始化器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2138D122B987C570066F311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2A3A0722B93E980006B416C /* Lesson_11_可选连_协议_元类型.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson_11_可选连_协议_元类型.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A3A0752B93E980006B416C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2A3A0772B93E980006B416C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +114,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D2138D0D2B987C570066F311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2A3A06F2B93E980006B416C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +173,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2138D112B987C570066F311 /* 07_协议_可失败初始化器 */ = {
+			isa = PBXGroup;
+			children = (
+				D2138D122B987C570066F311 /* main.swift */,
+			);
+			path = "07_协议_可失败初始化器";
+			sourceTree = "<group>";
+		};
 		D2A3A0692B93E980006B416C = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +191,7 @@
 				D2A3A0AF2B954AD4006B416C /* 04_协议_协议中的static和class */,
 				D2A3A0BA2B954FDC006B416C /* 05_协议_mutating */,
 				D2A3A0C52B95535B006B416C /* 06_协议_协议中定义初始化器init */,
+				D2138D112B987C570066F311 /* 07_协议_可失败初始化器 */,
 				D2A3A0732B93E980006B416C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,6 +206,7 @@
 				D2A3A0AE2B954AD4006B416C /* 04_协议_协议中的static和class */,
 				D2A3A0B92B954FDC006B416C /* 05_协议_mutating */,
 				D2A3A0C42B95535B006B416C /* 06_协议_协议中定义初始化器init */,
+				D2138D102B987C570066F311 /* 07_协议_可失败初始化器 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,6 +276,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D2138D0F2B987C570066F311 /* 07_协议_可失败初始化器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2138D162B987C570066F311 /* Build configuration list for PBXNativeTarget "07_协议_可失败初始化器" */;
+			buildPhases = (
+				D2138D0C2B987C570066F311 /* Sources */,
+				D2138D0D2B987C570066F311 /* Frameworks */,
+				D2138D0E2B987C570066F311 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07_协议_可失败初始化器";
+			productName = "07_协议_可失败初始化器";
+			productReference = D2138D102B987C570066F311 /* 07_协议_可失败初始化器 */;
+			productType = "com.apple.product-type.tool";
+		};
 		D2A3A0712B93E980006B416C /* Lesson_11_可选连_协议_元类型 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2A3A0862B93E980006B416C /* Build configuration list for PBXNativeTarget "Lesson_11_可选连_协议_元类型" */;
@@ -376,6 +422,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					D2138D0F2B987C570066F311 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					D2A3A0712B93E980006B416C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -419,6 +468,7 @@
 				D2A3A0AD2B954AD4006B416C /* 04_协议_协议中的static和class */,
 				D2A3A0B82B954FDC006B416C /* 05_协议_mutating */,
 				D2A3A0C32B95535B006B416C /* 06_协议_协议中定义初始化器init */,
+				D2138D0F2B987C570066F311 /* 07_协议_可失败初始化器 */,
 			);
 		};
 /* End PBXProject section */
@@ -437,6 +487,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D2138D0C2B987C570066F311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2138D132B987C570066F311 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2A3A06E2B93E980006B416C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -517,6 +575,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D2138D142B987C570066F311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2138D152B987C570066F311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D2A3A0842B93E980006B416C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -820,6 +900,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D2138D162B987C570066F311 /* Build configuration list for PBXNativeTarget "07_协议_可失败初始化器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2138D142B987C570066F311 /* Debug */,
+				D2138D152B987C570066F311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2A3A06D2B93E980006B416C /* Build configuration list for PBXProject "Lesson_11_可选连_协议_元类型" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
