@@ -8,7 +8,7 @@
 import Foundation
 
 print("CaseIterable---枚举可遍历")
-
+/// 让枚举遵守 CaseIterable 协议,可以实现遍历枚举.
 enum Season : CaseIterable {
     case spring , summer , autumn , winter
 }
