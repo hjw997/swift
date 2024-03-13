@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2138E372BA1AD620066F311"
+               BuildableName = "03_&#x57fa;&#x7840;&#x8bed;&#x6cd5;_&#x5b57;&#x9762;&#x91cf;"
+               BlueprintName = "03_&#x57fa;&#x7840;&#x8bed;&#x6cd5;_&#x5b57;&#x9762;&#x91cf;"
+               ReferencedContainer = "container:Lesson_01_&#x57fa;&#x7840;&#x8bed;&#x6cd5;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2138E372BA1AD620066F311"
+            BuildableName = "03_&#x57fa;&#x7840;&#x8bed;&#x6cd5;_&#x5b57;&#x9762;&#x91cf;"
+            BlueprintName = "03_&#x57fa;&#x7840;&#x8bed;&#x6cd5;_&#x5b57;&#x9762;&#x91cf;"
+            ReferencedContainer = "container:Lesson_01_&#x57fa;&#x7840;&#x8bed;&#x6cd5;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
+   </LaunchAction>
+</Scheme>
