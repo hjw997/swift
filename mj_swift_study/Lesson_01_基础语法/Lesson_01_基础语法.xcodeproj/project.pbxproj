@@ -11,6 +11,7 @@
 		D2138E302BA1A6C60066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138E2F2BA1A6C60066F311 /* main.swift */; };
 		D2138E3B2BA1AD620066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138E3A2BA1AD620066F311 /* main.swift */; };
 		D2138E462BA1B35C0066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138E452BA1B35C0066F311 /* main.swift */; };
+		D2138E512BA1B6510066F311 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2138E502BA1B6510066F311 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D2138E4C2BA1B6510066F311 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +71,8 @@
 		D2138E3A2BA1AD620066F311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2138E432BA1B35C0066F311 /* 04_类型转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04_类型转换"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2138E452BA1B35C0066F311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2138E4E2BA1B6510066F311 /* 05_基数语法_元祖_tuple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05_基数语法_元祖_tuple"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2138E502BA1B6510066F311 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2138E4B2BA1B6510066F311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +121,7 @@
 				D2138E2E2BA1A6C60066F311 /* 02_基础语法_常见数据类型 */,
 				D2138E392BA1AD620066F311 /* 03_基础语法_字面量 */,
 				D2138E442BA1B35C0066F311 /* 04_类型转换 */,
+				D2138E4F2BA1B6510066F311 /* 05_基数语法_元祖_tuple */,
 				D2138E082BA15EC00066F311 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 				D2138E2D2BA1A6C60066F311 /* 02_基础语法_常见数据类型 */,
 				D2138E382BA1AD620066F311 /* 03_基础语法_字面量 */,
 				D2138E432BA1B35C0066F311 /* 04_类型转换 */,
+				D2138E4E2BA1B6510066F311 /* 05_基数语法_元祖_tuple */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +168,14 @@
 				D2138E452BA1B35C0066F311 /* main.swift */,
 			);
 			path = "04_类型转换";
+			sourceTree = "<group>";
+		};
+		D2138E4F2BA1B6510066F311 /* 05_基数语法_元祖_tuple */ = {
+			isa = PBXGroup;
+			children = (
+				D2138E502BA1B6510066F311 /* main.swift */,
+			);
+			path = "05_基数语法_元祖_tuple";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +249,23 @@
 			productReference = D2138E432BA1B35C0066F311 /* 04_类型转换 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2138E4D2BA1B6510066F311 /* 05_基数语法_元祖_tuple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2138E522BA1B6510066F311 /* Build configuration list for PBXNativeTarget "05_基数语法_元祖_tuple" */;
+			buildPhases = (
+				D2138E4A2BA1B6510066F311 /* Sources */,
+				D2138E4B2BA1B6510066F311 /* Frameworks */,
+				D2138E4C2BA1B6510066F311 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05_基数语法_元祖_tuple";
+			productName = "05_基数语法_元祖_tuple";
+			productReference = D2138E4E2BA1B6510066F311 /* 05_基数语法_元祖_tuple */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -242,6 +288,9 @@
 					D2138E422BA1B35C0066F311 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					D2138E4D2BA1B6510066F311 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D2138E022BA15EC00066F311 /* Build configuration list for PBXProject "Lesson_01_基础语法" */;
@@ -261,6 +310,7 @@
 				D2138E2C2BA1A6C60066F311 /* 02_基础语法_常见数据类型 */,
 				D2138E372BA1AD620066F311 /* 03_基础语法_字面量 */,
 				D2138E422BA1B35C0066F311 /* 04_类型转换 */,
+				D2138E4D2BA1B6510066F311 /* 05_基数语法_元祖_tuple */,
 			);
 		};
 /* End PBXProject section */
@@ -295,6 +345,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2138E462BA1B35C0066F311 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2138E4A2BA1B6510066F311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2138E512BA1B6510066F311 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +561,28 @@
 			};
 			name = Release;
 		};
+		D2138E532BA1B6510066F311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2138E542BA1B6510066F311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +627,15 @@
 			buildConfigurations = (
 				D2138E482BA1B35C0066F311 /* Debug */,
 				D2138E492BA1B35C0066F311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2138E522BA1B6510066F311 /* Build configuration list for PBXNativeTarget "05_基数语法_元祖_tuple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2138E532BA1B6510066F311 /* Debug */,
+				D2138E542BA1B6510066F311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
