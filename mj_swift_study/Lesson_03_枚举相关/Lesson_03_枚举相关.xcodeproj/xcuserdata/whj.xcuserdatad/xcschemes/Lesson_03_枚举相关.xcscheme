@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2138D772B9D34AA0066F311"
+               BuildableName = "Lesson_03_&#x679a;&#x4e3e;&#x76f8;&#x5173;.app"
+               BlueprintName = "Lesson_03_&#x679a;&#x4e3e;&#x76f8;&#x5173;"
+               ReferencedContainer = "container:Lesson_03_&#x679a;&#x4e3e;&#x76f8;&#x5173;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2138D772B9D34AA0066F311"
+            BuildableName = "Lesson_03_&#x679a;&#x4e3e;&#x76f8;&#x5173;.app"
+            BlueprintName = "Lesson_03_&#x679a;&#x4e3e;&#x76f8;&#x5173;"
+            ReferencedContainer = "container:Lesson_03_&#x679a;&#x4e3e;&#x76f8;&#x5173;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
