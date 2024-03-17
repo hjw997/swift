@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2138EB92BA66D5A0066F311"
+               BuildableName = "03_&#x53ef;&#x9009;&#x9879;&#x7ed1;&#x5b9a;_Optional_Binding"
+               BlueprintName = "03_&#x53ef;&#x9009;&#x9879;&#x7ed1;&#x5b9a;_Optional_Binding"
+               ReferencedContainer = "container:Lesson_03_&#x53ef;&#x9009;&#x9879;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2138EB92BA66D5A0066F311"
+            BuildableName = "03_&#x53ef;&#x9009;&#x9879;&#x7ed1;&#x5b9a;_Optional_Binding"
+            BlueprintName = "03_&#x53ef;&#x9009;&#x9879;&#x7ed1;&#x5b9a;_Optional_Binding"
+            ReferencedContainer = "container:Lesson_03_&#x53ef;&#x9009;&#x9879;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
+   </LaunchAction>
+</Scheme>
