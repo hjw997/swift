@@ -64,4 +64,10 @@ withUnsafePointer(to: age) { (pointer: UnsafePointer<Int>) -> UnsafePointer<Int>
     return pointer
 }
 
-let p4 = withUnsafePointer(to: &age) {  UnsafeRawPointer($0) }
+/// UnsafeRawPointer 构造器 可以用一个泛型指针 :
+/// public init<T>(_ other: UnsafePointer<T>) 那么$0 就是个泛型指针.
+let p4 = withUnsafePointer(to: &age) {
+//    let dalloor = $0  //$0  是 UnsafePointer<Int> 类型.
+//    print(dalloor)
+    return UnsafeRawPointer($0) ///包装成RawPointer 返回.
+}
