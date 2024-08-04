@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D24EB5782C6004270063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5772C6004270063752A /* main.swift */; };
 		D24EB5842C6013E50063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5832C6013E50063752A /* main.swift */; };
+		D24EB58F2C60194D0063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB58E2C60194D0063752A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D24EB58A2C60194D0063752A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +58,10 @@
 		D24EB57C2C6005380063752A /* a_swift中的指针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_swift中的指针.png"; sourceTree = "<group>"; };
 		D24EB5812C6013E50063752A /* 02_swift专有指针_不带泛型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02_swift专有指针_不带泛型"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EB5832C6013E50063752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D24EB58C2C60194D0063752A /* 03_指针的应用示例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03_指针的应用示例"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EB58E2C60194D0063752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D24EB5932C6019D20063752A /* a_oc遍历回顾.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_oc遍历回顾.png"; sourceTree = "<group>"; };
+		D24EB5942C601E510063752A /* b_指针的应用示例课件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b_指针的应用示例课件.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D24EB5892C60194D0063752A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +101,7 @@
 			children = (
 				D24EB5762C6004270063752A /* 01_swift专有的指针_带泛型 */,
 				D24EB5822C6013E50063752A /* 02_swift专有指针_不带泛型 */,
+				D24EB58D2C60194D0063752A /* 03_指针的应用示例 */,
 				D24EB5682C5FB9680063752A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +112,7 @@
 				D24EB5672C5FB9680063752A /* Lesson_16_指针篇 */,
 				D24EB5752C6004270063752A /* 01_swift专有的指针 */,
 				D24EB5812C6013E50063752A /* 02_swift专有指针_不带泛型 */,
+				D24EB58C2C60194D0063752A /* 03_指针的应用示例 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +132,16 @@
 				D24EB5832C6013E50063752A /* main.swift */,
 			);
 			path = "02_swift专有指针_不带泛型";
+			sourceTree = "<group>";
+		};
+		D24EB58D2C60194D0063752A /* 03_指针的应用示例 */ = {
+			isa = PBXGroup;
+			children = (
+				D24EB5942C601E510063752A /* b_指针的应用示例课件.png */,
+				D24EB5932C6019D20063752A /* a_oc遍历回顾.png */,
+				D24EB58E2C60194D0063752A /* main.swift */,
+			);
+			path = "03_指针的应用示例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +198,23 @@
 			productReference = D24EB5812C6013E50063752A /* 02_swift专有指针_不带泛型 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D24EB58B2C60194D0063752A /* 03_指针的应用示例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EB5902C60194D0063752A /* Build configuration list for PBXNativeTarget "03_指针的应用示例" */;
+			buildPhases = (
+				D24EB5882C60194D0063752A /* Sources */,
+				D24EB5892C60194D0063752A /* Frameworks */,
+				D24EB58A2C60194D0063752A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03_指针的应用示例";
+			productName = "03_指针的应用示例";
+			productReference = D24EB58C2C60194D0063752A /* 03_指针的应用示例 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -182,6 +232,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					D24EB5802C6013E50063752A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D24EB58B2C60194D0063752A = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -202,6 +255,7 @@
 				D24EB5662C5FB9680063752A /* Lesson_16_指针篇 */,
 				D24EB5742C6004270063752A /* 01_swift专有的指针 */,
 				D24EB5802C6013E50063752A /* 02_swift专有指针_不带泛型 */,
+				D24EB58B2C60194D0063752A /* 03_指针的应用示例 */,
 			);
 		};
 /* End PBXProject section */
@@ -227,6 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24EB5842C6013E50063752A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB5882C60194D0063752A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EB58F2C60194D0063752A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +462,24 @@
 			};
 			name = Release;
 		};
+		D24EB5912C60194D0063752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D24EB5922C60194D0063752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +515,15 @@
 			buildConfigurations = (
 				D24EB5852C6013E50063752A /* Debug */,
 				D24EB5862C6013E50063752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24EB5902C60194D0063752A /* Build configuration list for PBXNativeTarget "03_指针的应用示例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EB5912C60194D0063752A /* Debug */,
+				D24EB5922C60194D0063752A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
