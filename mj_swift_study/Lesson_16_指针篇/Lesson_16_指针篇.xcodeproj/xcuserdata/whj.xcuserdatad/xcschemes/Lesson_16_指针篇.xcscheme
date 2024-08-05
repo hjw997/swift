@@ -13,9 +13,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D24EB5662C5FB9680063752A"
-               BuildableName = "Lesson_16_&#x6307;&#x9488;&#x7bc7;"
-               BlueprintName = "Lesson_16_&#x6307;&#x9488;&#x7bc7;"
+               BlueprintIdentifier = "D24EB5D82C616FEE0063752A"
+               BuildableName = "06_&#x521b;&#x5efa;&#x6307;&#x9488;_03_&#x5e26;&#x6cdb;&#x578b;"
+               BlueprintName = "06_&#x521b;&#x5efa;&#x6307;&#x9488;_03_&#x5e26;&#x6cdb;&#x578b;"
                ReferencedContainer = "container:Lesson_16_&#x6307;&#x9488;&#x7bc7;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,12 +42,16 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D24EB5662C5FB9680063752A"
-            BuildableName = "Lesson_16_&#x6307;&#x9488;&#x7bc7;"
-            BlueprintName = "Lesson_16_&#x6307;&#x9488;&#x7bc7;"
+            BlueprintIdentifier = "D24EB5D82C616FEE0063752A"
+            BuildableName = "06_&#x521b;&#x5efa;&#x6307;&#x9488;_03_&#x5e26;&#x6cdb;&#x578b;"
+            BlueprintName = "06_&#x521b;&#x5efa;&#x6307;&#x9488;_03_&#x5e26;&#x6cdb;&#x578b;"
             ReferencedContainer = "container:Lesson_16_&#x6307;&#x9488;&#x7bc7;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
