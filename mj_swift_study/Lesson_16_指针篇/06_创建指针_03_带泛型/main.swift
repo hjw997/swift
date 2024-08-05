@@ -10,6 +10,7 @@ import Foundation
 
 /// 带泛型 就知道 自己读多少了. 所以不用Raw
 var ptr = UnsafeMutablePointer<Int>.allocate(capacity: 2)
+print(ptr)
 /// 这里的 capacity 是容量, 表示存 2 个Int类型的,也就是16字节.
 
 /// 建议先初始化内存 ⭐️⭐️⭐️⭐️⭐️
@@ -19,6 +20,8 @@ ptr.initialize(repeating: 10, count: 2) /// 连续初始化 2个int .每 8 个�
 /// ptr.advanced(by: 8) 除了 用 advanced 来偏移. 还可以用 successor .
 /// successor --后继
 ptr.successor() /// 如果ptr 指向的是第一个Int ,那么后继就是指向下一个Int
+print(ptr)
+print(ptr.successor())
 
 /// 如果在来个后继就是 再指向下一个Int,也就是这个指针跳8个字节.
 ptr.successor().successor()
@@ -44,7 +47,9 @@ ptr.advanced(by: 8).pointee = 3
 print(ptr)
 
 /// 释放:⭐️⭐️⭐️⭐️⭐️
-/// ptr.deinitialize(count: 2) 如果当初是使用 initialize来初始内存这里就要使用 deinitialize来释放.
+ptr.deinitialize(count: 2)
+///如果当初是使用 initialize来初始内存这里就要使用 deinitialize 来释放.
+/// 下一节证明内存泄漏.
 ptr.deallocate()
 
 
