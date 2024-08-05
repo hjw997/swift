@@ -11,6 +11,8 @@
 		D24EB5842C6013E50063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5832C6013E50063752A /* main.swift */; };
 		D24EB58F2C60194D0063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB58E2C60194D0063752A /* main.swift */; };
 		D24EB59C2C601EE90063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB59B2C601EE90063752A /* main.swift */; };
+		D24EB5B32C614FFC0063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5B22C614FFC0063752A /* main.swift */; };
+		D24EB5BC2C6164AB0063752A /* Mems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5BB2C6164AB0063752A /* Mems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +70,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D24EB5AE2C614FFC0063752A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +96,13 @@
 		D24EB59B2C601EE90063752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D24EB5A02C602B4F0063752A /* a_获取指向某个变量的指针_课件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_获取指向某个变量的指针_课件.png"; sourceTree = "<group>"; };
 		D24EB5A52C6031800063752A /* 05_获得指向某个变量的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05_获得指向某个变量的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EB5B02C614FFC0063752A /* 05_获取指向堆空间实例的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05_获取指向堆空间实例的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EB5B22C614FFC0063752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D24EB5B72C6150200063752A /* a_课件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_课件.png"; sourceTree = "<group>"; };
+		D24EB5B82C6152D00063752A /* b_age的地址值_Intel_cpu汇编.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b_age的地址值_Intel_cpu汇编.png"; sourceTree = "<group>"; };
+		D24EB5B92C6153C60063752A /* c_age计算出的地址和打印出的地址.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_age计算出的地址和打印出的地址.png"; sourceTree = "<group>"; };
+		D24EB5BA2C6156A20063752A /* d_person变量的地址和perosn对象的地址分析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d_person变量的地址和perosn对象的地址分析.png"; sourceTree = "<group>"; };
+		D24EB5BB2C6164AB0063752A /* Mems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +148,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D24EB5AD2C614FFC0063752A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -140,6 +165,7 @@
 				D24EB5822C6013E50063752A /* 02_swift专有指针_不带泛型 */,
 				D24EB58D2C60194D0063752A /* 03_指针的应用示例 */,
 				D24EB59A2C601EE90063752A /* 04_获得指向某个变量的指针 */,
+				D24EB5B12C614FFC0063752A /* 05_获取指向堆空间实例的指针 */,
 				D24EB5682C5FB9680063752A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,6 +179,7 @@
 				D24EB58C2C60194D0063752A /* 03_指针的应用示例 */,
 				D24EB5992C601EE90063752A /* 04_获取某个变量的指针 */,
 				D24EB5A52C6031800063752A /* 05_获得指向某个变量的指针 */,
+				D24EB5B02C614FFC0063752A /* 05_获取指向堆空间实例的指针 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +218,19 @@
 				D24EB59B2C601EE90063752A /* main.swift */,
 			);
 			path = "04_获得指向某个变量的指针";
+			sourceTree = "<group>";
+		};
+		D24EB5B12C614FFC0063752A /* 05_获取指向堆空间实例的指针 */ = {
+			isa = PBXGroup;
+			children = (
+				D24EB5BB2C6164AB0063752A /* Mems.swift */,
+				D24EB5BA2C6156A20063752A /* d_person变量的地址和perosn对象的地址分析.png */,
+				D24EB5B92C6153C60063752A /* c_age计算出的地址和打印出的地址.png */,
+				D24EB5B82C6152D00063752A /* b_age的地址值_Intel_cpu汇编.png */,
+				D24EB5B72C6150200063752A /* a_课件.png */,
+				D24EB5B22C614FFC0063752A /* main.swift */,
+			);
+			path = "05_获取指向堆空间实例的指针";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +338,23 @@
 			productReference = D24EB5A52C6031800063752A /* 05_获得指向某个变量的指针 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D24EB5AF2C614FFC0063752A /* 05_获取指向堆空间实例的指针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EB5B62C614FFC0063752A /* Build configuration list for PBXNativeTarget "05_获取指向堆空间实例的指针" */;
+			buildPhases = (
+				D24EB5AC2C614FFC0063752A /* Sources */,
+				D24EB5AD2C614FFC0063752A /* Frameworks */,
+				D24EB5AE2C614FFC0063752A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05_获取指向堆空间实例的指针";
+			productName = "05_获取指向堆空间实例的指针";
+			productReference = D24EB5B02C614FFC0063752A /* 05_获取指向堆空间实例的指针 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -326,6 +383,9 @@
 					D24EB5A42C6031800063752A = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					D24EB5AF2C614FFC0063752A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D24EB5622C5FB9680063752A /* Build configuration list for PBXProject "Lesson_16_指针篇" */;
@@ -347,6 +407,7 @@
 				D24EB58B2C60194D0063752A /* 03_指针的应用示例 */,
 				D24EB5982C601EE90063752A /* 04_获取某个变量的指针 */,
 				D24EB5A42C6031800063752A /* 05_获得指向某个变量的指针 */,
+				D24EB5AF2C614FFC0063752A /* 05_获取指向堆空间实例的指针 */,
 			);
 		};
 /* End PBXProject section */
@@ -395,6 +456,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EB5AC2C614FFC0063752A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EB5B32C614FFC0063752A /* main.swift in Sources */,
+				D24EB5BC2C6164AB0063752A /* Mems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +692,24 @@
 			};
 			name = Release;
 		};
+		D24EB5B42C614FFC0063752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D24EB5B52C614FFC0063752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,6 +772,15 @@
 			buildConfigurations = (
 				D24EB5A92C6031800063752A /* Debug */,
 				D24EB5AA2C6031800063752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24EB5B62C614FFC0063752A /* Build configuration list for PBXNativeTarget "05_获取指向堆空间实例的指针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EB5B42C614FFC0063752A /* Debug */,
+				D24EB5B52C614FFC0063752A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
