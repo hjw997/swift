@@ -134,6 +134,7 @@
 		D23A87A12C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06_创建指针_03_内存泄漏证明"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23A87AC2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06_创建指针_04_内存泄漏证明"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23A87AE2C617B3E00BCA073 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D23A87B32C61837A00BCA073 /* a_课件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_课件.png"; sourceTree = "<group>"; };
 		D24EB5672C5FB9680063752A /* Lesson_16_指针篇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson_16_指针篇"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EB5752C6004270063752A /* 01_swift专有的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_swift专有的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EB5772C6004270063752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -257,6 +258,7 @@
 		D23A87AD2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */ = {
 			isa = PBXGroup;
 			children = (
+				D23A87B32C61837A00BCA073 /* a_课件.png */,
 				D23A87AE2C617B3E00BCA073 /* main.swift */,
 			);
 			path = "06_创建指针_04_内存泄漏证明";
