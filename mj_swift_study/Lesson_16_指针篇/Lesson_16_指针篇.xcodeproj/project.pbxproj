@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D23A87AF2C617B3E00BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A87AE2C617B3E00BCA073 /* main.swift */; };
 		D24EB5782C6004270063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5772C6004270063752A /* main.swift */; };
 		D24EB5842C6013E50063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5832C6013E50063752A /* main.swift */; };
 		D24EB58F2C60194D0063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB58E2C60194D0063752A /* main.swift */; };
@@ -19,6 +20,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D23A879F2C617AF200BCA073 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D23A87AA2C617B3E00BCA073 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		D24EB5652C5FB9680063752A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,6 +131,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D23A87A12C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06_创建指针_03_内存泄漏证明"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23A87AC2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06_创建指针_04_内存泄漏证明"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23A87AE2C617B3E00BCA073 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D24EB5672C5FB9680063752A /* Lesson_16_指针篇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson_16_指针篇"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EB5752C6004270063752A /* 01_swift专有的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_swift专有的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EB5772C6004270063752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -145,6 +167,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D23A879E2C617AF200BCA073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23A87A92C617B3E00BCA073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D24EB5642C5FB9680063752A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +254,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D23A87AD2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */ = {
+			isa = PBXGroup;
+			children = (
+				D23A87AE2C617B3E00BCA073 /* main.swift */,
+			);
+			path = "06_创建指针_04_内存泄漏证明";
+			sourceTree = "<group>";
+		};
 		D24EB55E2C5FB9680063752A = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +273,7 @@
 				D24EB5C22C61677D0063752A /* 06_创建指针_01 */,
 				D24EB5CE2C616C850063752A /* 06_创建指针_02 */,
 				D24EB5DA2C616FEE0063752A /* 06_创建指针_03_带泛型 */,
+				D23A87AD2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */,
 				D24EB5682C5FB9680063752A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -246,6 +291,8 @@
 				D24EB5C12C61677D0063752A /* 06_创建指针_01 */,
 				D24EB5CD2C616C850063752A /* 06_创建指针_02 */,
 				D24EB5D92C616FEE0063752A /* 06_创建指针_03_带泛型 */,
+				D23A87A12C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */,
+				D23A87AC2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -329,6 +376,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D23A87A02C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23A87A72C617AF200BCA073 /* Build configuration list for PBXNativeTarget "06_创建指针_03_内存泄漏证明" */;
+			buildPhases = (
+				D23A879D2C617AF200BCA073 /* Sources */,
+				D23A879E2C617AF200BCA073 /* Frameworks */,
+				D23A879F2C617AF200BCA073 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06_创建指针_03_内存泄漏证明";
+			productName = "06_创建指针_03_内存泄漏证明";
+			productReference = D23A87A12C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D23A87AB2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23A87B02C617B3E00BCA073 /* Build configuration list for PBXNativeTarget "06_创建指针_04_内存泄漏证明" */;
+			buildPhases = (
+				D23A87A82C617B3E00BCA073 /* Sources */,
+				D23A87A92C617B3E00BCA073 /* Frameworks */,
+				D23A87AA2C617B3E00BCA073 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06_创建指针_04_内存泄漏证明";
+			productName = "06_创建指针_04_内存泄漏证明";
+			productReference = D23A87AC2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */;
+			productType = "com.apple.product-type.tool";
+		};
 		D24EB5662C5FB9680063752A /* Lesson_16_指针篇 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D24EB56E2C5FB9680063752A /* Build configuration list for PBXNativeTarget "Lesson_16_指针篇" */;
@@ -509,6 +590,12 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					D23A87A02C617AF200BCA073 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D23A87AB2C617B3E00BCA073 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					D24EB5662C5FB9680063752A = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -564,11 +651,28 @@
 				D24EB5C02C61677D0063752A /* 06_创建指针_01 */,
 				D24EB5CC2C616C850063752A /* 06_创建指针_02 */,
 				D24EB5D82C616FEE0063752A /* 06_创建指针_03_带泛型 */,
+				D23A87A02C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */,
+				D23A87AB2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D23A879D2C617AF200BCA073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23A87A82C617B3E00BCA073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23A87AF2C617B3E00BCA073 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D24EB5632C5FB9680063752A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -651,6 +755,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D23A87A52C617AF200BCA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D23A87A62C617AF200BCA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D23A87B12C617B3E00BCA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D23A87B22C617B3E00BCA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D24EB56C2C5FB9680063752A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -947,6 +1087,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D23A87A72C617AF200BCA073 /* Build configuration list for PBXNativeTarget "06_创建指针_03_内存泄漏证明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23A87A52C617AF200BCA073 /* Debug */,
+				D23A87A62C617AF200BCA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23A87B02C617B3E00BCA073 /* Build configuration list for PBXNativeTarget "06_创建指针_04_内存泄漏证明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23A87B12C617B3E00BCA073 /* Debug */,
+				D23A87B22C617B3E00BCA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D24EB5622C5FB9680063752A /* Build configuration list for PBXProject "Lesson_16_指针篇" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

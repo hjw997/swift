@@ -44,10 +44,20 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>06_创建指针_03_带泛型.xcscheme_^#shared#^_</key>
+		<key>06_创建指针_03_内存泄漏证明.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
+		</dict>
+		<key>06_创建指针_03_带泛型.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>06_创建指针_04_内存泄漏证明.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>Lesson_16_指针篇.xcscheme</key>
 		<dict>
