@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D23A87AF2C617B3E00BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A87AE2C617B3E00BCA073 /* main.swift */; };
 		D23A87BB2C6400AF00BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A87BA2C6400AF00BCA073 /* main.swift */; };
+		D23A87C72C64084E00BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A87C62C64084E00BCA073 /* main.swift */; };
 		D24EB5782C6004270063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5772C6004270063752A /* main.swift */; };
 		D24EB5842C6013E50063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB5832C6013E50063752A /* main.swift */; };
 		D24EB58F2C60194D0063752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EB58E2C60194D0063752A /* main.swift */; };
@@ -40,6 +41,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		D23A87B62C6400AF00BCA073 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D23A87C22C64084E00BCA073 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -148,6 +158,9 @@
 		D23A87B82C6400AF00BCA073 /* 07_指针之间的转换_01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07_指针之间的转换_01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23A87BA2C6400AF00BCA073 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D23A87BF2C64013300BCA073 /* a_课件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_课件.png"; sourceTree = "<group>"; };
+		D23A87C42C64084E00BCA073 /* 07_指针之间的转换_02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07_指针之间的转换_02"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23A87C62C64084E00BCA073 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D23A87CB2C64089B00BCA073 /* a_课件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_课件.png"; sourceTree = "<group>"; };
 		D24EB5672C5FB9680063752A /* Lesson_16_指针篇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lesson_16_指针篇"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EB5752C6004270063752A /* 01_swift专有的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_swift专有的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24EB5772C6004270063752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -196,6 +209,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D23A87B52C6400AF00BCA073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23A87C12C64084E00BCA073 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,6 +313,15 @@
 			path = "07_指针之间的转换_01";
 			sourceTree = "<group>";
 		};
+		D23A87C52C64084E00BCA073 /* 07_指针之间的转换_02 */ = {
+			isa = PBXGroup;
+			children = (
+				D23A87CB2C64089B00BCA073 /* a_课件.png */,
+				D23A87C62C64084E00BCA073 /* main.swift */,
+			);
+			path = "07_指针之间的转换_02";
+			sourceTree = "<group>";
+		};
 		D24EB55E2C5FB9680063752A = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +335,7 @@
 				D24EB5DA2C616FEE0063752A /* 06_创建指针_03_带泛型 */,
 				D23A87AD2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */,
 				D23A87B92C6400AF00BCA073 /* 07_指针之间的转换_01 */,
+				D23A87C52C64084E00BCA073 /* 07_指针之间的转换_02 */,
 				D24EB5682C5FB9680063752A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -326,6 +356,7 @@
 				D23A87A12C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */,
 				D23A87AC2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */,
 				D23A87B82C6400AF00BCA073 /* 07_指针之间的转换_01 */,
+				D23A87C42C64084E00BCA073 /* 07_指针之间的转换_02 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -458,6 +489,23 @@
 			name = "07_指针之间的转换_01";
 			productName = "07_指针之间的转换_01";
 			productReference = D23A87B82C6400AF00BCA073 /* 07_指针之间的转换_01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		D23A87C32C64084E00BCA073 /* 07_指针之间的转换_02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23A87CA2C64084E00BCA073 /* Build configuration list for PBXNativeTarget "07_指针之间的转换_02" */;
+			buildPhases = (
+				D23A87C02C64084E00BCA073 /* Sources */,
+				D23A87C12C64084E00BCA073 /* Frameworks */,
+				D23A87C22C64084E00BCA073 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07_指针之间的转换_02";
+			productName = "07_指针之间的转换_02";
+			productReference = D23A87C42C64084E00BCA073 /* 07_指针之间的转换_02 */;
 			productType = "com.apple.product-type.tool";
 		};
 		D24EB5662C5FB9680063752A /* Lesson_16_指针篇 */ = {
@@ -649,6 +697,9 @@
 					D23A87B72C6400AF00BCA073 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					D23A87C32C64084E00BCA073 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					D24EB5662C5FB9680063752A = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -707,6 +758,7 @@
 				D23A87A02C617AF200BCA073 /* 06_创建指针_03_内存泄漏证明 */,
 				D23A87AB2C617B3E00BCA073 /* 06_创建指针_04_内存泄漏证明 */,
 				D23A87B72C6400AF00BCA073 /* 07_指针之间的转换_01 */,
+				D23A87C32C64084E00BCA073 /* 07_指针之间的转换_02 */,
 			);
 		};
 /* End PBXProject section */
@@ -732,6 +784,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23A87BB2C6400AF00BCA073 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23A87C02C64084E00BCA073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23A87C72C64084E00BCA073 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,6 +923,24 @@
 			name = Debug;
 		};
 		D23A87BD2C6400AF00BCA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D23A87C82C64084E00BCA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D23A87C92C64084E00BCA073 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1190,6 +1268,15 @@
 			buildConfigurations = (
 				D23A87BC2C6400AF00BCA073 /* Debug */,
 				D23A87BD2C6400AF00BCA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23A87CA2C64084E00BCA073 /* Build configuration list for PBXNativeTarget "07_指针之间的转换_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23A87C82C64084E00BCA073 /* Debug */,
+				D23A87C92C64084E00BCA073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
