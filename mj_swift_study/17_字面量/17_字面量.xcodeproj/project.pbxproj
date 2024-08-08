@@ -10,6 +10,7 @@
 		D23A87F32C656A3800BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A87F22C656A3800BCA073 /* main.swift */; };
 		D23A87FF2C65731200BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A87FE2C65731200BCA073 /* main.swift */; };
 		D23A880B2C6574A200BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A880A2C6574A200BCA073 /* main.swift */; };
+		D23A88172C657A1F00BCA073 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23A88162C657A1F00BCA073 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D23A88122C657A1F00BCA073 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +72,8 @@
 		D23A88082C6574A200BCA073 /* 17_03_字面量协议的应用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17_03_字面量协议的应用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23A880A2C6574A200BCA073 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D23A880F2C6574C400BCA073 /* a_字面量协议应用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_字面量协议应用.png"; sourceTree = "<group>"; };
+		D23A88142C657A1F00BCA073 /* 17_04_字面量协议的应用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17_04_字面量协议的应用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23A88162C657A1F00BCA073 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D23A88112C657A1F00BCA073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,6 +121,7 @@
 				D23A87F12C656A3800BCA073 /* 17_01_字面量 */,
 				D23A87FD2C65731200BCA073 /* 17_02_字面量协议 */,
 				D23A88092C6574A200BCA073 /* 17_03_字面量协议的应用 */,
+				D23A88152C657A1F00BCA073 /* 17_04_字面量协议的应用 */,
 				D23A87E32C65630800BCA073 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +133,7 @@
 				D23A87F02C656A3800BCA073 /* 17_01_字面量 */,
 				D23A87FC2C65731200BCA073 /* 17_02_字面量协议 */,
 				D23A88082C6574A200BCA073 /* 17_03_字面量协议的应用 */,
+				D23A88142C657A1F00BCA073 /* 17_04_字面量协议的应用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +163,14 @@
 				D23A880A2C6574A200BCA073 /* main.swift */,
 			);
 			path = "17_03_字面量协议的应用";
+			sourceTree = "<group>";
+		};
+		D23A88152C657A1F00BCA073 /* 17_04_字面量协议的应用 */ = {
+			isa = PBXGroup;
+			children = (
+				D23A88162C657A1F00BCA073 /* main.swift */,
+			);
+			path = "17_04_字面量协议的应用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +244,23 @@
 			productReference = D23A88082C6574A200BCA073 /* 17_03_字面量协议的应用 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D23A88132C657A1F00BCA073 /* 17_04_字面量协议的应用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23A881A2C657A1F00BCA073 /* Build configuration list for PBXNativeTarget "17_04_字面量协议的应用" */;
+			buildPhases = (
+				D23A88102C657A1F00BCA073 /* Sources */,
+				D23A88112C657A1F00BCA073 /* Frameworks */,
+				D23A88122C657A1F00BCA073 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17_04_字面量协议的应用";
+			productName = "17_04_字面量协议的应用";
+			productReference = D23A88142C657A1F00BCA073 /* 17_04_字面量协议的应用 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,6 +283,9 @@
 					D23A88072C6574A200BCA073 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					D23A88132C657A1F00BCA073 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = D23A87DD2C65630800BCA073 /* Build configuration list for PBXProject "17_字面量" */;
@@ -256,6 +305,7 @@
 				D23A87EF2C656A3800BCA073 /* 17_01_字面量 */,
 				D23A87FB2C65731200BCA073 /* 17_02_字面量协议 */,
 				D23A88072C6574A200BCA073 /* 17_03_字面量协议的应用 */,
+				D23A88132C657A1F00BCA073 /* 17_04_字面量协议的应用 */,
 			);
 		};
 /* End PBXProject section */
@@ -289,6 +339,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D23A880B2C6574A200BCA073 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23A88102C657A1F00BCA073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23A88172C657A1F00BCA073 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +538,24 @@
 			};
 			name = Release;
 		};
+		D23A88182C657A1F00BCA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D23A88192C657A1F00BCA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -524,6 +600,15 @@
 			buildConfigurations = (
 				D23A880C2C6574A200BCA073 /* Debug */,
 				D23A880D2C6574A200BCA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23A881A2C657A1F00BCA073 /* Build configuration list for PBXNativeTarget "17_04_字面量协议的应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23A88182C657A1F00BCA073 /* Debug */,
+				D23A88192C657A1F00BCA073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
