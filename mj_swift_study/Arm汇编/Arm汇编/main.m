@@ -10,8 +10,13 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        test();
-        NSLog(@"Hello, World!");
+        //test();
+       
+        int res1 = add(11, 10);
+        int res2 = sub(10, 11);
+        
+        NSLog(@"%d",res1);
+        NSLog(@"%d",res2);
     }
     return 0;
 }
