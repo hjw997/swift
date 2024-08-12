@@ -9,4 +9,5 @@
 #define arm_h
 
 void test(void);
+void zerorregister(void);
 #endif /* arm_h */

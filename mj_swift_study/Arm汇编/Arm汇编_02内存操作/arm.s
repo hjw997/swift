@@ -6,8 +6,12 @@
 //
 
 .text
-.global _test
+.global _test, _zerorregister
 
+_zerorregister:
+stur wzr, [x29,#-0x14]
+stur xzr, [x29,#-0x20]
+ret
 
 _test:
 //下面这种是操作寄存器:

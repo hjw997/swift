@@ -15,6 +15,11 @@ int main(int argc, const char * argv[]) {
         int a = 10;
         NSLog(@"a的地址:%p",&a);
         test();
+
+        /// 零寄存器 :
+        int  b = 0;
+        long c = 0;
+        zerorregister();
         
         NSLog(@"Hello, World!%d",a);
     }
