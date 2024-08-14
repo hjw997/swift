@@ -8,13 +8,23 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
-			<key>isShown</key>
-			<false />
+		</dict>
+		<key>00_NSObject占用几个字节说起.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>01_oc对象本质.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>01_自定义类.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+			<key>isShown</key>
+			<false />
 		</dict>
 	</dict>
 </dict>

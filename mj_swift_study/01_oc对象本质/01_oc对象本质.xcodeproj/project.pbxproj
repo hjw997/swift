@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D2AFA53F2C6CA1A500740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA53E2C6CA1A500740852 /* main.m */; };
+		D2AFA54F2C6CB42A00740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA54E2C6CB42A00740852 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,27 +21,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D2AFA54A2C6CB42A00740852 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D2AFA5222C6CA17400740852 /* 01_oc对象本质.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01_oc对象本质.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBB99BF4018909DEBF7B55C /* main-arm64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "main-arm64.cpp"; sourceTree = "<group>"; };
 		D2AFA53C2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "00_NSObject占用几个字节说起"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AFA53E2C6CA1A500740852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2AFA5432C6CA23E00740852 /* b_面试专题大概涵盖内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b_面试专题大概涵盖内容.png"; sourceTree = "<group>"; };
 		D2AFA5442C6CA23E00740852 /* a_面试专题大纲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_面试专题大纲.png"; sourceTree = "<group>"; };
 		D2AFA5452C6CA70B00740852 /* main-arm64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "main-arm64.cpp"; sourceTree = "<group>"; };
 		D2AFA5472C6CB11700740852 /* c_OC对象的本质.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_OC对象的本质.png"; sourceTree = "<group>"; };
+		D2AFA54C2C6CB42A00740852 /* 01_自定义类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_自定义类"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AFA54E2C6CB42A00740852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2AFA5532C6CC2FF00740852 /* a_自定义类对象的本质.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_自定义类对象的本质.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2AFA51F2C6CA17400740852 /* Frameworks */ = {
+		D2AFA5392C6CA1A500740852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2AFA5392C6CA1A500740852 /* Frameworks */ = {
+		D2AFA5492C6CB42A00740852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AFA53D2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
+				D2AFA54D2C6CB42A00740852 /* 01_自定义类 */,
 				D2AFA5232C6CA17400740852 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,8 +75,8 @@
 		D2AFA5232C6CA17400740852 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AFA5222C6CA17400740852 /* 01_oc对象本质.app */,
 				D2AFA53C2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
+				D2AFA54C2C6CB42A00740852 /* 01_自定义类 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,26 +93,19 @@
 			path = "00_NSObject占用几个字节说起";
 			sourceTree = "<group>";
 		};
+		D2AFA54D2C6CB42A00740852 /* 01_自定义类 */ = {
+			isa = PBXGroup;
+			children = (
+				D2AFA5532C6CC2FF00740852 /* a_自定义类对象的本质.png */,
+				D2AFA54E2C6CB42A00740852 /* main.m */,
+				1CBB99BF4018909DEBF7B55C /* main-arm64.cpp */,
+			);
+			path = "01_自定义类";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2AFA5212C6CA17400740852 /* 01_oc对象本质 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2AFA5352C6CA17500740852 /* Build configuration list for PBXNativeTarget "01_oc对象本质" */;
-			buildPhases = (
-				D2AFA51E2C6CA17400740852 /* Sources */,
-				D2AFA51F2C6CA17400740852 /* Frameworks */,
-				D2AFA5202C6CA17400740852 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "01_oc对象本质";
-			productName = "01_oc对象本质";
-			productReference = D2AFA5222C6CA17400740852 /* 01_oc对象本质.app */;
-			productType = "com.apple.product-type.application";
-		};
 		D2AFA53B2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2AFA5402C6CA1A500740852 /* Build configuration list for PBXNativeTarget "00_NSObject占用几个字节说起" */;
@@ -116,6 +123,23 @@
 			productReference = D2AFA53C2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2AFA54B2C6CB42A00740852 /* 01_自定义类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AFA5502C6CB42A00740852 /* Build configuration list for PBXNativeTarget "01_自定义类" */;
+			buildPhases = (
+				D2AFA5482C6CB42A00740852 /* Sources */,
+				D2AFA5492C6CB42A00740852 /* Frameworks */,
+				D2AFA54A2C6CB42A00740852 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01_自定义类";
+			productName = "01_自定义类";
+			productReference = D2AFA54C2C6CB42A00740852 /* 01_自定义类 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -125,10 +149,10 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					D2AFA5212C6CA17400740852 = {
+					D2AFA53B2C6CA1A500740852 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					D2AFA53B2C6CA1A500740852 = {
+					D2AFA54B2C6CB42A00740852 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -146,35 +170,26 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AFA5212C6CA17400740852 /* 01_oc对象本质 */,
 				D2AFA53B2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
+				D2AFA54B2C6CB42A00740852 /* 01_自定义类 */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		D2AFA5202C6CA17400740852 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D2AFA51E2C6CA17400740852 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2AFA5382C6CA1A500740852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2AFA53F2C6CA1A500740852 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AFA5482C6CB42A00740852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AFA54F2C6CB42A00740852 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,54 +305,6 @@
 			};
 			name = Release;
 		};
-		D2AFA5362C6CA17500740852 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "01_oc对象本质/_1_oc____.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qb.com.-1-oc----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-			};
-			name = Debug;
-		};
-		D2AFA5372C6CA17500740852 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "01_oc对象本质/_1_oc____.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qb.com.-1-oc----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-			};
-			name = Release;
-		};
 		D2AFA5412C6CA1A500740852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -347,6 +314,22 @@
 			name = Debug;
 		};
 		D2AFA5422C6CA1A500740852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2AFA5512C6CB42A00740852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2AFA5522C6CB42A00740852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -366,20 +349,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2AFA5352C6CA17500740852 /* Build configuration list for PBXNativeTarget "01_oc对象本质" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2AFA5362C6CA17500740852 /* Debug */,
-				D2AFA5372C6CA17500740852 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D2AFA5402C6CA1A500740852 /* Build configuration list for PBXNativeTarget "00_NSObject占用几个字节说起" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2AFA5412C6CA1A500740852 /* Debug */,
 				D2AFA5422C6CA1A500740852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AFA5502C6CB42A00740852 /* Build configuration list for PBXNativeTarget "01_自定义类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AFA5512C6CB42A00740852 /* Debug */,
+				D2AFA5522C6CB42A00740852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

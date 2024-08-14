@@ -13,9 +13,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2AFA53B2C6CA1A500740852"
-               BuildableName = "00_NSObject&#x5360;&#x7528;&#x51e0;&#x4e2a;&#x5b57;&#x8282;&#x8bf4;&#x8d77;"
-               BlueprintName = "00_NSObject&#x5360;&#x7528;&#x51e0;&#x4e2a;&#x5b57;&#x8282;&#x8bf4;&#x8d77;"
+               BlueprintIdentifier = "D2AFA54B2C6CB42A00740852"
+               BuildableName = "01_&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;"
+               BlueprintName = "01_&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;"
                ReferencedContainer = "container:01_oc&#x5bf9;&#x8c61;&#x672c;&#x8d28;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2AFA53B2C6CA1A500740852"
-            BuildableName = "00_NSObject&#x5360;&#x7528;&#x51e0;&#x4e2a;&#x5b57;&#x8282;&#x8bf4;&#x8d77;"
-            BlueprintName = "00_NSObject&#x5360;&#x7528;&#x51e0;&#x4e2a;&#x5b57;&#x8282;&#x8bf4;&#x8d77;"
+            BlueprintIdentifier = "D2AFA54B2C6CB42A00740852"
+            BuildableName = "01_&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;"
+            BlueprintName = "01_&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;"
             ReferencedContainer = "container:01_oc&#x5bf9;&#x8c61;&#x672c;&#x8d28;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
