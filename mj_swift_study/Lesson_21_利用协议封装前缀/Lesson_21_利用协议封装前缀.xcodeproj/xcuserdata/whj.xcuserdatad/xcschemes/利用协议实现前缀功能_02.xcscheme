@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2A39F7C2B83B95F006B416C"
-               BuildableName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_01"
-               BlueprintName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_01"
-               ReferencedContainer = "container:Lesson_21.xcodeproj">
+               BlueprintIdentifier = "D2A39F872B83B98A006B416C"
+               BuildableName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_02"
+               BlueprintName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_02"
+               ReferencedContainer = "container:Lesson_21_&#x5229;&#x7528;&#x534f;&#x8bae;&#x5c01;&#x88c5;&#x524d;&#x7f00;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,10 +42,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2A39F7C2B83B95F006B416C"
-            BuildableName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_01"
-            BlueprintName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_01"
-            ReferencedContainer = "container:Lesson_21.xcodeproj">
+            BlueprintIdentifier = "D2A39F872B83B98A006B416C"
+            BuildableName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_02"
+            BlueprintName = "&#x5229;&#x7528;&#x534f;&#x8bae;&#x5b9e;&#x73b0;&#x524d;&#x7f00;&#x529f;&#x80fd;_02"
+            ReferencedContainer = "container:Lesson_21_&#x5229;&#x7528;&#x534f;&#x8bae;&#x5c01;&#x88c5;&#x524d;&#x7f00;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
