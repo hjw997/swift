@@ -21,7 +21,11 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-       
+        Student *stu = [[Student alloc] init];
+        stu->_no = 4;
+        stu->_age = 5;
+        NSLog(@"%p",stu);
+        
     }
     return 0;
 }

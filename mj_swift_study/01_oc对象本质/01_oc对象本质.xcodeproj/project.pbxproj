@@ -63,6 +63,8 @@
 		D2AFA5642C6DB73500740852 /* f_lldb读内存指令.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f_lldb读内存指令.png"; sourceTree = "<group>"; };
 		D2AFA5652C6DB93E00740852 /* g_lldb常用指令.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g_lldb常用指令.png"; sourceTree = "<group>"; };
 		D2AFA5662C6DB93E00740852 /* h_lldb读取的一个演示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h_lldb读取的一个演示.png"; sourceTree = "<group>"; };
+		D2AFA5672C6EC99900740852 /* i_lldb内存写操作.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i_lldb内存写操作.png"; sourceTree = "<group>"; };
+		D2AFA5682C6ECA1F00740852 /* j_NSObject对象占用字节.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "j_NSObject对象占用字节.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,8 @@
 		D2AFA5592C6CC3A400740852 /* 02_对象内存窥探技巧 */ = {
 			isa = PBXGroup;
 			children = (
+				D2AFA5682C6ECA1F00740852 /* j_NSObject对象占用字节.png */,
+				D2AFA5672C6EC99900740852 /* i_lldb内存写操作.png */,
 				D2AFA5662C6DB93E00740852 /* h_lldb读取的一个演示.png */,
 				D2AFA5652C6DB93E00740852 /* g_lldb常用指令.png */,
 				D2AFA5642C6DB73500740852 /* f_lldb读内存指令.png */,
