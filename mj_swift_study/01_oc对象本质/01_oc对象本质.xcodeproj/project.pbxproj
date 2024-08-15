@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D2AFA53F2C6CA1A500740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA53E2C6CA1A500740852 /* main.m */; };
 		D2AFA54F2C6CB42A00740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA54E2C6CB42A00740852 /* main.m */; };
+		D2AFA55B2C6CC3A400740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA55A2C6CC3A400740852 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D2AFA5562C6CC3A400740852 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +53,16 @@
 		D2AFA54C2C6CB42A00740852 /* 01_自定义类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_自定义类"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AFA54E2C6CB42A00740852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2AFA5532C6CC2FF00740852 /* a_自定义类对象的本质.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_自定义类对象的本质.png"; sourceTree = "<group>"; };
+		D2AFA5582C6CC3A400740852 /* 02_对象内存窥探技巧 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02_对象内存窥探技巧"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AFA55A2C6CC3A400740852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2AFA55F2C6CC3F800740852 /* a_查看内存工具调出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_查看内存工具调出.png"; sourceTree = "<group>"; };
+		D2AFA5602C6CC54F00740852 /* b_查看内存步骤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b_查看内存步骤.png"; sourceTree = "<group>"; };
+		D2AFA5612C6DB59B00740852 /* c_内存读取出来的方式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_内存读取出来的方式.png"; sourceTree = "<group>"; };
+		D2AFA5622C6DB61F00740852 /* d_lldb使用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d_lldb使用.png"; sourceTree = "<group>"; };
+		D2AFA5632C6DB69B00740852 /* e_lldb+viewmemory查看内存.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "e_lldb+viewmemory查看内存.png"; sourceTree = "<group>"; };
+		D2AFA5642C6DB73500740852 /* f_lldb读内存指令.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f_lldb读内存指令.png"; sourceTree = "<group>"; };
+		D2AFA5652C6DB93E00740852 /* g_lldb常用指令.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g_lldb常用指令.png"; sourceTree = "<group>"; };
+		D2AFA5662C6DB93E00740852 /* h_lldb读取的一个演示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h_lldb读取的一个演示.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2AFA5552C6CC3A400740852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,6 +95,7 @@
 			children = (
 				D2AFA53D2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
 				D2AFA54D2C6CB42A00740852 /* 01_自定义类 */,
+				D2AFA5592C6CC3A400740852 /* 02_对象内存窥探技巧 */,
 				D2AFA5232C6CA17400740852 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +105,7 @@
 			children = (
 				D2AFA53C2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
 				D2AFA54C2C6CB42A00740852 /* 01_自定义类 */,
+				D2AFA5582C6CC3A400740852 /* 02_对象内存窥探技巧 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +130,22 @@
 				1CBB99BF4018909DEBF7B55C /* main-arm64.cpp */,
 			);
 			path = "01_自定义类";
+			sourceTree = "<group>";
+		};
+		D2AFA5592C6CC3A400740852 /* 02_对象内存窥探技巧 */ = {
+			isa = PBXGroup;
+			children = (
+				D2AFA5662C6DB93E00740852 /* h_lldb读取的一个演示.png */,
+				D2AFA5652C6DB93E00740852 /* g_lldb常用指令.png */,
+				D2AFA5642C6DB73500740852 /* f_lldb读内存指令.png */,
+				D2AFA5632C6DB69B00740852 /* e_lldb+viewmemory查看内存.png */,
+				D2AFA5622C6DB61F00740852 /* d_lldb使用.png */,
+				D2AFA5612C6DB59B00740852 /* c_内存读取出来的方式.png */,
+				D2AFA5602C6CC54F00740852 /* b_查看内存步骤.png */,
+				D2AFA55F2C6CC3F800740852 /* a_查看内存工具调出.png */,
+				D2AFA55A2C6CC3A400740852 /* main.m */,
+			);
+			path = "02_对象内存窥探技巧";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +185,23 @@
 			productReference = D2AFA54C2C6CB42A00740852 /* 01_自定义类 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2AFA5572C6CC3A400740852 /* 02_对象内存窥探技巧 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AFA55E2C6CC3A400740852 /* Build configuration list for PBXNativeTarget "02_对象内存窥探技巧" */;
+			buildPhases = (
+				D2AFA5542C6CC3A400740852 /* Sources */,
+				D2AFA5552C6CC3A400740852 /* Frameworks */,
+				D2AFA5562C6CC3A400740852 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02_对象内存窥探技巧";
+			productName = "02_对象内存窥探技巧";
+			productReference = D2AFA5582C6CC3A400740852 /* 02_对象内存窥探技巧 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +215,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					D2AFA54B2C6CB42A00740852 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2AFA5572C6CC3A400740852 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -172,6 +237,7 @@
 			targets = (
 				D2AFA53B2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
 				D2AFA54B2C6CB42A00740852 /* 01_自定义类 */,
+				D2AFA5572C6CC3A400740852 /* 02_对象内存窥探技巧 */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +256,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AFA54F2C6CB42A00740852 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AFA5542C6CC3A400740852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AFA55B2C6CC3A400740852 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +411,22 @@
 			};
 			name = Release;
 		};
+		D2AFA55C2C6CC3A400740852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2AFA55D2C6CC3A400740852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,6 +453,15 @@
 			buildConfigurations = (
 				D2AFA5512C6CB42A00740852 /* Debug */,
 				D2AFA5522C6CB42A00740852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AFA55E2C6CC3A400740852 /* Build configuration list for PBXNativeTarget "02_对象内存窥探技巧" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AFA55C2C6CC3A400740852 /* Debug */,
+				D2AFA55D2C6CC3A400740852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
