@@ -10,6 +10,7 @@
 		D2AFA53F2C6CA1A500740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA53E2C6CA1A500740852 /* main.m */; };
 		D2AFA54F2C6CB42A00740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA54E2C6CB42A00740852 /* main.m */; };
 		D2AFA55B2C6CC3A400740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA55A2C6CC3A400740852 /* main.m */; };
+		D2AFA5702C6ECB0300740852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AFA56F2C6ECB0300740852 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		D2AFA5562C6CC3A400740852 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D2AFA56B2C6ECB0300740852 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -65,6 +75,12 @@
 		D2AFA5662C6DB93E00740852 /* h_lldb读取的一个演示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h_lldb读取的一个演示.png"; sourceTree = "<group>"; };
 		D2AFA5672C6EC99900740852 /* i_lldb内存写操作.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i_lldb内存写操作.png"; sourceTree = "<group>"; };
 		D2AFA5682C6ECA1F00740852 /* j_NSObject对象占用字节.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "j_NSObject对象占用字节.png"; sourceTree = "<group>"; };
+		D2AFA56D2C6ECB0300740852 /* 03_更复杂的继承关系 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03_更复杂的继承关系"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AFA56F2C6ECB0300740852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2AFA5742C6ED10D00740852 /* c_继承关系的内存分析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_继承关系的内存分析.png"; sourceTree = "<group>"; };
+		D2AFA5752C6ED17800740852 /* a_继承关系的的结构.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "a_继承关系的的结构.png"; sourceTree = "<group>"; };
+		D2AFA5762C6ED22F00740852 /* b_继承关系内存占用字节分析.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b_继承关系内存占用字节分析.png"; sourceTree = "<group>"; };
+		D2AFA5772C6ED82400740852 /* d_使用appcode_内存查看.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d_使用appcode_内存查看.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2AFA56A2C6ECB0300740852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -98,6 +121,7 @@
 				D2AFA53D2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
 				D2AFA54D2C6CB42A00740852 /* 01_自定义类 */,
 				D2AFA5592C6CC3A400740852 /* 02_对象内存窥探技巧 */,
+				D2AFA56E2C6ECB0300740852 /* 03_更复杂的继承关系 */,
 				D2AFA5232C6CA17400740852 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +132,7 @@
 				D2AFA53C2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
 				D2AFA54C2C6CB42A00740852 /* 01_自定义类 */,
 				D2AFA5582C6CC3A400740852 /* 02_对象内存窥探技巧 */,
+				D2AFA56D2C6ECB0300740852 /* 03_更复杂的继承关系 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +175,18 @@
 				D2AFA55A2C6CC3A400740852 /* main.m */,
 			);
 			path = "02_对象内存窥探技巧";
+			sourceTree = "<group>";
+		};
+		D2AFA56E2C6ECB0300740852 /* 03_更复杂的继承关系 */ = {
+			isa = PBXGroup;
+			children = (
+				D2AFA5772C6ED82400740852 /* d_使用appcode_内存查看.png */,
+				D2AFA5762C6ED22F00740852 /* b_继承关系内存占用字节分析.png */,
+				D2AFA5752C6ED17800740852 /* a_继承关系的的结构.png */,
+				D2AFA5742C6ED10D00740852 /* c_继承关系的内存分析.png */,
+				D2AFA56F2C6ECB0300740852 /* main.m */,
+			);
+			path = "03_更复杂的继承关系";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +243,23 @@
 			productReference = D2AFA5582C6CC3A400740852 /* 02_对象内存窥探技巧 */;
 			productType = "com.apple.product-type.tool";
 		};
+		D2AFA56C2C6ECB0300740852 /* 03_更复杂的继承关系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AFA5732C6ECB0300740852 /* Build configuration list for PBXNativeTarget "03_更复杂的继承关系" */;
+			buildPhases = (
+				D2AFA5692C6ECB0300740852 /* Sources */,
+				D2AFA56A2C6ECB0300740852 /* Frameworks */,
+				D2AFA56B2C6ECB0300740852 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03_更复杂的继承关系";
+			productName = "03_更复杂的继承关系";
+			productReference = D2AFA56D2C6ECB0300740852 /* 03_更复杂的继承关系 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +276,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					D2AFA5572C6CC3A400740852 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D2AFA56C2C6ECB0300740852 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -242,6 +299,7 @@
 				D2AFA53B2C6CA1A500740852 /* 00_NSObject占用几个字节说起 */,
 				D2AFA54B2C6CB42A00740852 /* 01_自定义类 */,
 				D2AFA5572C6CC3A400740852 /* 02_对象内存窥探技巧 */,
+				D2AFA56C2C6ECB0300740852 /* 03_更复杂的继承关系 */,
 			);
 		};
 /* End PBXProject section */
@@ -268,6 +326,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AFA55B2C6CC3A400740852 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AFA5692C6ECB0300740852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AFA5702C6ECB0300740852 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +497,22 @@
 			};
 			name = Release;
 		};
+		D2AFA5712C6ECB0300740852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2AFA5722C6ECB0300740852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -466,6 +548,15 @@
 			buildConfigurations = (
 				D2AFA55C2C6CC3A400740852 /* Debug */,
 				D2AFA55D2C6CC3A400740852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AFA5732C6ECB0300740852 /* Build configuration list for PBXNativeTarget "03_更复杂的继承关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AFA5712C6ECB0300740852 /* Debug */,
+				D2AFA5722C6ECB0300740852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
