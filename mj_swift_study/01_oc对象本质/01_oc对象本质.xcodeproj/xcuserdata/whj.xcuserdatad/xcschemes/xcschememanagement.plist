@@ -28,6 +28,13 @@
 		</dict>
 		<key>03_更复杂的继承关系.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>04_oc对象的分类.xcscheme</key>
+		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
 			<key>isShown</key>
