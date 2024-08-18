@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2AFA5C92C718D8B00740852"
+               BuildableName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
+               BlueprintName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
+               ReferencedContainer = "container:03_Class&#x7c7b;&#x5bf9;&#x8c61;&#x672c;&#x8d28;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2AFA5C92C718D8B00740852"
+            BuildableName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
+            BlueprintName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
+            ReferencedContainer = "container:03_Class&#x7c7b;&#x5bf9;&#x8c61;&#x672c;&#x8d28;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
