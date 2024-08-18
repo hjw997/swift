@@ -13,9 +13,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D2AFA5C92C718D8B00740852"
-               BuildableName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
-               BlueprintName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
+               BlueprintIdentifier = "D2AFA5D42C71907C00740852"
+               BuildableName = "02_isa&#x7684;&#x7ec6;&#x8282;"
+               BlueprintName = "02_isa&#x7684;&#x7ec6;&#x8282;"
                ReferencedContainer = "container:03_Class&#x7c7b;&#x5bf9;&#x8c61;&#x672c;&#x8d28;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D2AFA5C92C718D8B00740852"
-            BuildableName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
-            BlueprintName = "01_&#x5224;&#x65ad;&#x7c7b;&#x5bf9;&#x8c61;&#x7c7b;&#x578b;"
+            BlueprintIdentifier = "D2AFA5D42C71907C00740852"
+            BuildableName = "02_isa&#x7684;&#x7ec6;&#x8282;"
+            BlueprintName = "02_isa&#x7684;&#x7ec6;&#x8282;"
             ReferencedContainer = "container:03_Class&#x7c7b;&#x5bf9;&#x8c61;&#x672c;&#x8d28;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
